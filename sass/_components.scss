@@ -186,3 +186,58 @@
   color: var(--color-grey-light-4);
   font-size: 1.2rem;
 }
+
+////////////////////////////////////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+
+  &__item {
+
+  }
+
+
+  &__photo {
+    display: block;
+    width: 100%;
+  }
+}
+
+////////////////////////////////////////////////////
+// HOTEL OVERVIEW
+.overview {
+  display: flex;
+
+  &__heading {
+
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+
+  }
+
+
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
+  }
+}
